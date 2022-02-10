@@ -5,7 +5,7 @@ public class MostrarPerfilService {
   private UsuariosService usuariosService;
 
   public MostrarPerfilService(){
-    this.usuariosService = new UsuariosService();
+    this.usuariosService = new UsuariosService(new UsuarioBaneadoService());
 
   }
 
